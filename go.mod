@@ -16,7 +16,7 @@ require (
 	github.com/go-openapi/errors v0.20.1
 	github.com/go-openapi/runtime v0.20.0
 	github.com/go-openapi/strfmt v0.20.3
-	github.com/go-openapi/swag v0.19.15
+	github.com/go-openapi/swag v0.21.1
 	github.com/go-openapi/validate v0.20.3
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gobuffalo/pop/v6 v6.0.4-0.20220524160009-195240e4a669
