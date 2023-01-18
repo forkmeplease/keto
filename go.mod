@@ -11,10 +11,10 @@ replace (
 require (
 	github.com/cenkalti/backoff/v3 v3.2.2
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-sql-driver/mysql v1.6.0
+	github.com/go-sql-driver/mysql v1.7.0
 	github.com/gobuffalo/httptest v1.5.2
-	github.com/gobuffalo/pop/v6 v6.0.8
-	github.com/gofrs/uuid v4.3.0+incompatible
+	github.com/gobuffalo/pop/v6 v6.1.1
+	github.com/gofrs/uuid v4.3.1+incompatible
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/luna-duclos/instrumentedsql v1.1.3
@@ -83,11 +83,11 @@ require (
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/gobuffalo/envy v1.10.2 // indirect
 	github.com/gobuffalo/fizz v1.14.4 // indirect
-	github.com/gobuffalo/flect v0.3.0 // indirect
+	github.com/gobuffalo/flect v1.0.0 // indirect
 	github.com/gobuffalo/github_flavored_markdown v1.1.3 // indirect
 	github.com/gobuffalo/helpers v0.6.7 // indirect
 	github.com/gobuffalo/nulls v0.4.2 // indirect
-	github.com/gobuffalo/plush/v4 v4.1.16 // indirect
+	github.com/gobuffalo/plush/v4 v4.1.18 // indirect
 	github.com/gobuffalo/tags/v3 v3.1.4 // indirect
 	github.com/gobuffalo/validate/v3 v3.3.3 // indirect
 	github.com/goccy/go-yaml v1.9.6 // indirect
