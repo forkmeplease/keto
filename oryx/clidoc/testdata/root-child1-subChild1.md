@@ -1,7 +1,7 @@
 ---
 id: root-child1-subChild1
 title: root child1 subChild1
-description: root child1 subChild1 
+description: root child1 subChild1
 ---
 
 <!--
@@ -9,17 +9,14 @@ This file is auto-generated.
 
 To improve this file please make your change against the appropriate "./cmd/*.go" file.
 -->
+
 ## root child1 subChild1
-
-
 
 ### Synopsis
 
-A sample text
-subChild1
+A sample text subChild1
 
 <[some argument]>
-
 
 ```
 root child1 subChild1 <args> [flags]
@@ -33,5 +30,4 @@ root child1 subChild1 <args> [flags]
 
 ### SEE ALSO
 
-* [root child1](root-child1)	 - 
-
+- [root child1](root-child1) -

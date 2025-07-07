@@ -13,7 +13,7 @@
         refer to the cluster state, only to a single instance.
       operationId: isAlive
       responses:
-        '200':
+        "200":
           content:
             application/json:
               schema:
@@ -24,7 +24,7 @@
                   status:
                     description: Always "ok".
                     type: string
-          description: '{{.ProjectHumanName}} is ready to accept connections.'
+          description: "{{.ProjectHumanName}} is ready to accept connections."
         default:
           content:
             text/plain:
@@ -32,7 +32,7 @@
                 type: string
           description: Unexpected error
       summary: Check HTTP Server Status
-      tags: {{ .HealthPathTags | toJson }}
+      tags: { { .HealthPathTags | toJson } }
 - op: replace
   path: /paths/~1health~1ready
   value:
@@ -48,7 +48,7 @@
         Be aware that if you are running multiple nodes of {{.ProjectHumanName}}, the health status will never
         refer to the cluster state, only to a single instance.
       responses:
-        '200':
+        "200":
           content:
             application/json:
               schema:
@@ -59,8 +59,8 @@
                   status:
                     description: Always "ok".
                     type: string
-          description: '{{.ProjectHumanName}} is ready to accept requests.'
-        '503':
+          description: "{{.ProjectHumanName}} is ready to accept requests."
+        "503":
           content:
             application/json:
               schema:
@@ -70,7 +70,9 @@
                   errors:
                     additionalProperties:
                       type: string
-                    description: Errors contains a list of errors that caused the not ready status.
+                    description:
+                      Errors contains a list of errors that caused the not ready
+                      status.
                     type: object
                 type: object
           description: Ory Kratos is not yet ready to accept requests.
@@ -81,7 +83,7 @@
                 type: string
           description: Unexpected error
       summary: Check HTTP Server and Database Status
-      tags: {{ .HealthPathTags | toJson }}
+      tags: { { .HealthPathTags | toJson } }
 - op: replace
   path: /paths/~1version
   value:
@@ -96,7 +98,7 @@
         refer to the cluster state, only to a single instance.
       operationId: getVersion
       responses:
-        '200':
+        "200":
           content:
             application/json:
               schema:
@@ -109,4 +111,4 @@
                     type: string
           description: Returns the {{.ProjectHumanName}} version.
       summary: Return Running Software Version.
-      tags: {{ .HealthPathTags | toJson }}
+      tags: { { .HealthPathTags | toJson } }

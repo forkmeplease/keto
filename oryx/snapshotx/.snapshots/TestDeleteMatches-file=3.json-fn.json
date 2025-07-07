@@ -3,8 +3,7 @@
   "nested": {
     "nested": {
       "arr": [
-        {
-        },
+        {},
         {
           "updated_at": 1234
         }
@@ -12,13 +11,11 @@
     }
   },
   "arr": [
-    {
-    },
+    {},
     {
       "updated_at": 1234,
       "arr": [
-        {
-        },
+        {},
         {
           "updated_at": 1234
         }

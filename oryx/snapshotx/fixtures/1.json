@@ -1,11 +1,6 @@
 {
-  "ignore_nested": [
-    "updated_at",
-    "created_at"
-  ],
-  "ignore_exact": [
-    "foo.id"
-  ],
+  "ignore_nested": ["updated_at", "created_at"],
+  "ignore_exact": ["foo.id"],
   "content": {
     "foo": {
       "id": "asdf",
@@ -13,7 +8,7 @@
     },
     "created_at": "1234",
     "updated_at": "1234",
-    "nested":{
+    "nested": {
       "created_at": 1234,
       "nested": {
         "created_at": 1234,

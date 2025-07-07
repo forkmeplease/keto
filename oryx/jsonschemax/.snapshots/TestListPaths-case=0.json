@@ -130,12 +130,7 @@
   {
     "Title": "Anonymous Subject",
     "Description": "Sets the anonymous username.",
-    "Examples": [
-      "guest",
-      "anon",
-      "anonymous",
-      "unknown"
-    ],
+    "Examples": ["guest", "anon", "anonymous", "unknown"],
     "Name": "authenticators.anonymous.config.subject",
     "Default": "anonymous",
     "Type": "",
@@ -156,9 +151,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.anonymous.enabled",
     "Default": false,
     "Type": false,
@@ -221,9 +214,7 @@
   {
     "Title": "Session Check URL",
     "Description": "The origin to proxy requests to. If the response is a 200 with body `{ \"subject\": \"...\", \"extra\": {} }`. The request will pass the subject through successfully, otherwise it will be marked as unauthorized.\n\n\u003eIf this authenticator is enabled, this value is required.",
-    "Examples": [
-      "https://session-store-host"
-    ],
+    "Examples": ["https://session-store-host"],
     "Name": "authenticators.cookie_session.config.check_session_url",
     "Default": null,
     "Type": "",
@@ -286,9 +277,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.cookie_session.enabled",
     "Default": false,
     "Type": false,
@@ -488,12 +477,7 @@
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "hierarchic",
-      "exact",
-      "wildcard",
-      "none"
-    ],
+    "Enum": ["hierarchic", "exact", "wildcard", "none"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -654,9 +638,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.jwt.enabled",
     "Default": false,
     "Type": false,
@@ -698,9 +680,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.noop.enabled",
     "Default": false,
     "Type": false,
@@ -805,9 +785,7 @@
   {
     "Title": "",
     "Description": "The OAuth 2.0 Token Endpoint that will be used to validate the client credentials.\n\n\u003eIf this authenticator is enabled, this value is required.",
-    "Examples": [
-      "https://my-website.com/oauth2/token"
-    ],
+    "Examples": ["https://my-website.com/oauth2/token"],
     "Name": "authenticators.oauth2_client_credentials.config.token_url",
     "Default": null,
     "Type": "",
@@ -828,9 +806,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.oauth2_client_credentials.enabled",
     "Default": false,
     "Type": false,
@@ -893,9 +869,7 @@
   {
     "Title": "OAuth 2.0 Introspection URL",
     "Description": "The OAuth 2.0 Token Introspection endpoint URL.\n\n\u003eIf this authenticator is enabled, this value is required.",
-    "Examples": [
-      "https://my-website.com/oauth2/introspection"
-    ],
+    "Examples": ["https://my-website.com/oauth2/introspection"],
     "Name": "authenticators.oauth2_introspection.config.introspection_url",
     "Default": null,
     "Type": "",
@@ -987,9 +961,7 @@
     "Format": "",
     "Pattern": null,
     "Enum": null,
-    "Constant": [
-      true
-    ],
+    "Constant": [true],
     "ReadOnly": false,
     "MinLength": -1,
     "MaxLength": -1,
@@ -1002,11 +974,7 @@
   {
     "Title": "OAuth 2.0 Scope",
     "Description": "The OAuth 2.0 Scope to be requested during the OAuth 2.0 Client Credentials Grant.",
-    "Examples": [
-      [
-        "[\"foo\", \"bar\"]"
-      ]
-    ],
+    "Examples": [["[\"foo\", \"bar\"]"]],
     "Name": "authenticators.oauth2_introspection.config.pre_authorization.scope",
     "Default": null,
     "Type": [],
@@ -1118,12 +1086,7 @@
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "hierarchic",
-      "exact",
-      "wildcard",
-      "none"
-    ],
+    "Enum": ["hierarchic", "exact", "wildcard", "none"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -1284,9 +1247,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.oauth2_introspection.enabled",
     "Default": false,
     "Type": false,
@@ -1328,9 +1289,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authenticators.unauthorized.enabled",
     "Default": false,
     "Type": false,
@@ -1393,9 +1352,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authorizers.allow.enabled",
     "Default": false,
     "Type": false,
@@ -1437,9 +1394,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authorizers.deny.enabled",
     "Default": false,
     "Type": false,
@@ -1502,9 +1457,7 @@
   {
     "Title": "Base URL",
     "Description": "The base URL of ORY Keto.\n\n\u003eIf this authorizer is enabled, this value is required.",
-    "Examples": [
-      "http://my-keto/"
-    ],
+    "Examples": ["http://my-keto/"],
     "Name": "authorizers.keto_engine_acp_ory.config.base_url",
     "Default": null,
     "Type": "",
@@ -1609,9 +1562,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "authorizers.keto_engine_acp_ory.enabled",
     "Default": false,
     "Type": false,
@@ -1660,10 +1611,7 @@
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "text",
-      "json"
-    ],
+    "Enum": ["text", "json"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -1684,14 +1632,7 @@
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "panic",
-      "fatal",
-      "error",
-      "warn",
-      "info",
-      "debug"
-    ],
+    "Enum": ["panic", "fatal", "error", "warn", "info", "debug"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -1789,9 +1730,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "mutators.cookie.enabled",
     "Default": false,
     "Type": false,
@@ -1875,9 +1814,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "mutators.header.enabled",
     "Default": false,
     "Type": false,
@@ -2129,9 +2066,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "mutators.hydrator.enabled",
     "Default": false,
     "Type": false,
@@ -2261,11 +2196,7 @@
   {
     "Title": "Expire After",
     "Description": "Sets the time-to-live of the JSON Web Token.",
-    "Examples": [
-      "1h",
-      "1m",
-      "30s"
-    ],
+    "Examples": ["1h", "1m", "30s"],
     "Name": "mutators.id_token.config.ttl",
     "Default": "1m",
     "Type": "",
@@ -2286,9 +2217,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "mutators.id_token.enabled",
     "Default": false,
     "Type": false,
@@ -2330,9 +2259,7 @@
   {
     "Title": "Enabled",
     "Description": "En-/disables this component.",
-    "Examples": [
-      true
-    ],
+    "Examples": [true],
     "Name": "mutators.noop.enabled",
     "Default": false,
     "Type": false,
@@ -2360,10 +2287,7 @@
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "cpu",
-      "mem"
-    ],
+    "Enum": ["cpu", "mem"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -2463,10 +2387,7 @@
     "Description": "A list of non simple headers the client is allowed to use with cross-domain requests.",
     "Examples": null,
     "Name": "serve.api.cors.allowed_headers",
-    "Default": [
-      "Authorization",
-      "Content-Type"
-    ],
+    "Default": ["Authorization", "Content-Type"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -2508,13 +2429,7 @@
     "Description": "A list of methods the client is allowed to use with cross-domain requests.",
     "Examples": null,
     "Name": "serve.api.cors.allowed_methods",
-    "Default": [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
+    "Default": ["GET", "POST", "PUT", "PATCH", "DELETE"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -2569,9 +2484,7 @@
       "https://*.foo.example.com"
     ],
     "Name": "serve.api.cors.allowed_origins",
-    "Default": [
-      "*"
-    ],
+    "Default": ["*"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -2655,9 +2568,7 @@
     "Description": "Indicates which headers are safe to expose to the API of a CORS API specification",
     "Examples": null,
     "Name": "serve.api.cors.exposed_headers",
-    "Default": [
-      "Content-Type"
-    ],
+    "Default": ["Content-Type"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -2718,10 +2629,7 @@
   {
     "Title": "Host",
     "Description": "The network interface to listen on.",
-    "Examples": [
-      "localhost",
-      "127.0.0.1"
-    ],
+    "Examples": ["localhost", "127.0.0.1"],
     "Name": "serve.api.host",
     "Default": "",
     "Type": "",
@@ -2828,9 +2736,7 @@
   {
     "Title": "Path to PEM-encoded Fle",
     "Description": "",
-    "Examples": [
-      "path/to/file.pem"
-    ],
+    "Examples": ["path/to/file.pem"],
     "Name": "serve.api.tls.cert.path",
     "Default": null,
     "Type": "",
@@ -2895,9 +2801,7 @@
   {
     "Title": "Path to PEM-encoded Fle",
     "Description": "",
-    "Examples": [
-      "path/to/file.pem"
-    ],
+    "Examples": ["path/to/file.pem"],
     "Name": "serve.api.tls.key.path",
     "Default": null,
     "Type": "",
@@ -2983,10 +2887,7 @@
     "Description": "A list of non simple headers the client is allowed to use with cross-domain requests.",
     "Examples": null,
     "Name": "serve.proxy.cors.allowed_headers",
-    "Default": [
-      "Authorization",
-      "Content-Type"
-    ],
+    "Default": ["Authorization", "Content-Type"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -3028,13 +2929,7 @@
     "Description": "A list of methods the client is allowed to use with cross-domain requests.",
     "Examples": null,
     "Name": "serve.proxy.cors.allowed_methods",
-    "Default": [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
+    "Default": ["GET", "POST", "PUT", "PATCH", "DELETE"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -3089,9 +2984,7 @@
       "https://*.foo.example.com"
     ],
     "Name": "serve.proxy.cors.allowed_origins",
-    "Default": [
-      "*"
-    ],
+    "Default": ["*"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -3175,9 +3068,7 @@
     "Description": "Indicates which headers are safe to expose to the API of a CORS API specification",
     "Examples": null,
     "Name": "serve.proxy.cors.exposed_headers",
-    "Default": [
-      "Content-Type"
-    ],
+    "Default": ["Content-Type"],
     "Type": [],
     "TypeHint": 8,
     "Format": "",
@@ -3238,10 +3129,7 @@
   {
     "Title": "Host",
     "Description": "The network interface to listen on. Leave empty to listen on all interfaces.",
-    "Examples": [
-      "localhost",
-      "127.0.0.1"
-    ],
+    "Examples": ["localhost", "127.0.0.1"],
     "Name": "serve.proxy.host",
     "Default": "",
     "Type": "",
@@ -3304,11 +3192,7 @@
   {
     "Title": "HTTP Idle Timeout",
     "Description": " The maximum amount of time to wait for any action of a request session, reading data or writing the response.",
-    "Examples": [
-      "5s",
-      "5m",
-      "5h"
-    ],
+    "Examples": ["5s", "5m", "5h"],
     "Name": "serve.proxy.timeout.idle",
     "Default": "120s",
     "Type": "",
@@ -3329,11 +3213,7 @@
   {
     "Title": "HTTP Read Timeout",
     "Description": "The maximum duration for reading the entire request, including the body.",
-    "Examples": [
-      "5s",
-      "5m",
-      "5h"
-    ],
+    "Examples": ["5s", "5m", "5h"],
     "Name": "serve.proxy.timeout.read",
     "Default": "5s",
     "Type": "",
@@ -3354,11 +3234,7 @@
   {
     "Title": "HTTP Write Timeout",
     "Description": "The maximum duration before timing out writes of the response. Increase this parameter to prevent unexpected closing a client connection if an upstream request is responding slowly.",
-    "Examples": [
-      "5s",
-      "5m",
-      "5h"
-    ],
+    "Examples": ["5s", "5m", "5h"],
     "Name": "serve.proxy.timeout.write",
     "Default": "120s",
     "Type": "",
@@ -3444,9 +3320,7 @@
   {
     "Title": "Path to PEM-encoded Fle",
     "Description": "",
-    "Examples": [
-      "path/to/file.pem"
-    ],
+    "Examples": ["path/to/file.pem"],
     "Name": "serve.proxy.tls.cert.path",
     "Default": null,
     "Type": "",
@@ -3511,9 +3385,7 @@
   {
     "Title": "Path to PEM-encoded Fle",
     "Description": "",
-    "Examples": [
-      "path/to/file.pem"
-    ],
+    "Examples": ["path/to/file.pem"],
     "Name": "serve.proxy.tls.key.path",
     "Default": null,
     "Type": "",

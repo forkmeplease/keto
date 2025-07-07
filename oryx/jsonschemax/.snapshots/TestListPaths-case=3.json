@@ -44,9 +44,7 @@
   {
     "Title": "",
     "Description": "",
-    "Examples": [
-      "https://accounts.google.com/o/oauth2/v2/auth"
-    ],
+    "Examples": ["https://accounts.google.com/o/oauth2/v2/auth"],
     "Name": "providers.#.auth_url",
     "Default": null,
     "Type": "",
@@ -109,9 +107,7 @@
   {
     "Title": "",
     "Description": "",
-    "Examples": [
-      "google"
-    ],
+    "Examples": ["google"],
     "Name": "providers.#.id",
     "Default": null,
     "Type": "",
@@ -132,9 +128,7 @@
   {
     "Title": "",
     "Description": "",
-    "Examples": [
-      "https://accounts.google.com"
-    ],
+    "Examples": ["https://accounts.google.com"],
     "Name": "providers.#.issuer_url",
     "Default": null,
     "Type": "",
@@ -180,23 +174,14 @@
   {
     "Title": "Provider",
     "Description": "Can be one of github, gitlab, generic, google, microsoft, discord.",
-    "Examples": [
-      "google"
-    ],
+    "Examples": ["google"],
     "Name": "providers.#.provider",
     "Default": null,
     "Type": "",
     "TypeHint": 1,
     "Format": "",
     "Pattern": null,
-    "Enum": [
-      "github",
-      "gitlab",
-      "generic",
-      "google",
-      "microsoft",
-      "discord"
-    ],
+    "Enum": ["github", "gitlab", "generic", "google", "microsoft", "discord"],
     "Constant": null,
     "ReadOnly": false,
     "MinLength": -1,
@@ -231,10 +216,7 @@
   {
     "Title": "",
     "Description": "",
-    "Examples": [
-      "offline_access",
-      "profile"
-    ],
+    "Examples": ["offline_access", "profile"],
     "Name": "providers.#.scope.#",
     "Default": null,
     "Type": "",
@@ -282,9 +264,7 @@
   {
     "Title": "",
     "Description": "",
-    "Examples": [
-      "https://www.googleapis.com/oauth2/v4/token"
-    ],
+    "Examples": ["https://www.googleapis.com/oauth2/v4/token"],
     "Name": "providers.#.token_url",
     "Default": null,
     "Type": "",

@@ -1,7 +1,7 @@
 ---
 id: root
 title: root
-description: root 
+description: root
 ---
 
 <!--
@@ -9,17 +9,14 @@ This file is auto-generated.
 
 To improve this file please make your change against the appropriate "./cmd/*.go" file.
 -->
+
 ## root
-
-
 
 ### Synopsis
 
-A sample text
-root
+A sample text root
 
 <[some argument]>
-
 
 ```
 root [flags]
@@ -33,6 +30,5 @@ root [flags]
 
 ### SEE ALSO
 
-* [root child1](root-child1)	 - 
-* [root child2](root-child2)	 - 
-
+- [root child1](root-child1) -
+- [root child2](root-child2) -
